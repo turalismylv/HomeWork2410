@@ -1,0 +1,24 @@
+﻿@using front_to_back.Models
+@model List<OurPartnerComponent>
+
+      <section class="bg-secondary py-3">
+        <div class="container py-5">
+            <h2 class="h2 text-white text-center py-5">Our Partner</h2>
+            <div id="ourPartnerComponent" class="row text-center">
+
+                @foreach (var ourPartner in Model)
+                {
+                <div class="col-md-3 mb-3">
+                    <div class="card partner-wap py-5">
+                        @Html.Raw(ourPartner.IconTag)
+                    </div>
+                </div>
+                    
+                }
+               
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button id="loader" class="btn btn-primary">Lead more...</button>
+        </div>
+    </section>

@@ -1,0 +1,12 @@
+﻿@using front_to_back.Models
+@model List<OurPartnerComponent>
+
+@foreach (var ourPartner in Model)
+                {
+                <div class="col-md-3 mb-3">
+                    <div class="card partner-wap py-5">
+                        @Html.Raw(ourPartner.IconTag)
+                    </div>
+                </div>
+                    
+                }

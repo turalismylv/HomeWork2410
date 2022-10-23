@@ -1,0 +1,45 @@
+﻿@using front_to_back.Models
+@model PricingComponent
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+
+                        <p class="card-description">
+                            DElete Pricing
+                        </p>
+
+                        <span>TITLE:</span>
+                        <span>@Model.Title</span>
+
+                        <br />
+                        <br />
+
+                        <span>Description:</span>
+                        <span>@Model.Description</span>
+
+                        <br />
+                        <br />
+
+                        <span>Cost:</span>
+                        <span>@Model.Cost</span>
+
+                        <br />
+                        <br />
+
+
+
+                        <form method="post" asp-action="deletecomponent" asp-controller="pricing" asp-area="admin" asp-route-id="@Model.Id">
+                            <button onclick="confirm('eminsinizmi?')" class="btn btn-danger">Silin</button>
+                            <button>
+                                <a class="btn btn-light" asp-action="index" asp-controller="pricing" asp-area="admin">Cancel</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

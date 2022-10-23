@@ -1,0 +1,31 @@
+﻿@using front_to_back.Models
+@model List<OurTeamComponent>
+<section class="container py-5">
+    <div class="pt-5 pb-3 d-lg-flex align-items-center gx-5">
+
+        <div class="col-lg-3">
+            <h2 class="h2 py-5 typo-space-line">Our Team</h2>
+            <p class="text-muted light-300">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+
+        <div class="col-lg-9 row">
+
+            @foreach (var ourTeamComponent in Model)
+            {
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="@ourTeamComponent.FilePath" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>@ourTeamComponent.FullName</li>
+                        <li>@ourTeamComponent.Duty</li>
+                    </ul>
+                </div>
+            }
+
+            
+        </div>
+
+    </div>
+</section>

@@ -1,0 +1,41 @@
+﻿@using front_to_back.Models
+@model ContactBannerHero
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+             <div class="col-md-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  
+                  <p class="card-description">
+                    DElete RECENT WOrk Component
+                  </p>
+                  
+                   <span>TITLE:</span>
+                   <span>@Model.Title</span>
+
+                   <br/>
+                       <br/>
+                   <span>TITLE2:</span>
+                   <span>@Model.Title2</span>
+
+                        <br/>
+                            <br/>
+
+                  <span>Information:</span>
+                   <span>@Model.Information</span>
+                    <br/>
+                            <br/>
+                   
+                    <span>Photo:</span>
+                  <td> <img style="width: 100px" src="~/assets/img/@Model.PhotoPath"></td>
+
+                   <form method="post" asp-action="deletecomponent" asp-controller="contact" asp-area="admin" asp-route-id="@Model.Id">
+                      <a class="btn btn-primary" asp-action="index" asp-controller="contact" asp-area="admin"> Cancel</a>
+                   </form>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
