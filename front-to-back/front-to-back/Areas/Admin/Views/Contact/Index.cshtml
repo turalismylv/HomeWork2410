@@ -29,13 +29,13 @@
                                             <td> <img src="~/assets/img/@contactBanner.PhotoPath"></td>
                                             <td>@contactBanner.Title</td>
                                             <td>@contactBanner.Title2</td>
-                                            <td>@contactBanner.Information</td>
+                                            <td style="width:200px ">@contactBanner.Information</td>
                                             
                                             <td>
 
                                                 <a class="btn btn-primary " asp-action="update" asp-controller="contact" asp-area="admin" asp-route-id=@contactBanner.Id>Update</a>
-                                                <a class="btn btn-primary btn-danger " asp-action="delete" asp-controller="contact" asp-area="admin" asp-route-id=@contactBanner.Id>Delete</a>
                                                 <a class="btn btn-primary btn-details " asp-action="details" asp-controller="contact" asp-area="admin" asp-route-id=@contactBanner.Id>Details</a>
+                                                <a class="btn btn-primary btn-danger " asp-action="delete" asp-controller="contact" asp-area="admin" asp-route-id=@contactBanner.Id>Delete</a>
                                             </td>
                                         </tr>
                                     
