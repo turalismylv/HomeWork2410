@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GZC0CysvGFqqEPUWlVmjwzJOVZuVAUSXp6GSKdYYJYo=",
+  "Hash": "FnGjG4H7xJNT1c69loiH40WX8Ba19cg3tK2sYv8h5rE=",
   "Source": "front-to-back",
   "BasePath": "_content/front-to-back",
   "Mode": "Default",
@@ -1749,23 +1749,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\6573650d-a4d5-4e53-b353-fa88596c7a17_WIN_20221024_17_16_14_Pro.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\HomeWorks\\HomeWork2410\\HomeWork2410\\front-to-back\\front-to-back\\wwwroot\\assets\\img\\6d59cf97-574b-4691-a115-e59c85849f41_turalavara.jpeg",
-      "SourceId": "front-to-back",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\HomeWorks\\HomeWork2410\\HomeWork2410\\front-to-back\\front-to-back\\wwwroot\\",
-      "BasePath": "_content/front-to-back",
-      "RelativePath": "assets/img/6d59cf97-574b-4691-a115-e59c85849f41_turalavara.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\6d59cf97-574b-4691-a115-e59c85849f41_turalavara.jpeg"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\HomeWorks\\HomeWork2410\\HomeWork2410\\front-to-back\\front-to-back\\wwwroot\\assets\\img\\95ed6a97-9115-4721-aa5a-e95f9dc25a7e_banner-img-01.svg",
